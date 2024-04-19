@@ -1,6 +1,9 @@
 # Setting up the yarn
+
 1. Run cmd as Administrator
+
 run below command
+
 ```corepack enable```
 
 2. Then initialize a new project:
@@ -9,16 +12,20 @@ run below command
 3. update Yarn
 ```
 yarn set version stable
+
 yarn install
 ```
 
 # Installing Mantine
+
 ```yarn add @mantine/core @mantine/hooks```
 
 1. Configure PostCSS plugin
 ```yarn add --dev postcss postcss-preset-mantine postcss-simple-vars``
+
 2. create ```postcss.config.cjs``` and copy below code
-3. ```
+
+```
          module.exports = {
           plugins: {
             'postcss-preset-mantine': {},
@@ -53,4 +60,4 @@ You may also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 Your app is ready to be deployed!
 
-![Tables Preview](https://github.com/Aakarshit07/my-wine-stats/blob/main/src/assets/tables.png)
+![Tables Preview](https://github.com/Aakarshit07/my-wine-stats/blob/main/src/assets/tables.png?raw=true)
