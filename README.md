@@ -19,21 +19,21 @@ yarn install
 ```yarn add --dev postcss postcss-preset-mantine postcss-simple-vars``
 2. create ```postcss.config.cjs``` and copy below code
 3. ```
-   module.exports = {
-    plugins: {
-      'postcss-preset-mantine': {},
-      'postcss-simple-vars': {
-        variables: {
-          'mantine-breakpoint-xs': '36em',
-          'mantine-breakpoint-sm': '48em',
-          'mantine-breakpoint-md': '62em',
-          'mantine-breakpoint-lg': '75em',
-          'mantine-breakpoint-xl': '88em',
-        },
-      },
-    },
-  };
-   ```
+         module.exports = {
+          plugins: {
+            'postcss-preset-mantine': {},
+            'postcss-simple-vars': {
+              variables: {
+                'mantine-breakpoint-xs': '36em',
+                'mantine-breakpoint-sm': '48em',
+                'mantine-breakpoint-md': '62em',
+                'mantine-breakpoint-lg': '75em',
+                'mantine-breakpoint-xl': '88em',
+              },
+            },
+          },
+       };
+```
 
 # Run Serve using below commands 
 
@@ -53,4 +53,4 @@ You may also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 Your app is ready to be deployed!
 
-![Tables Preview](my-wine-stats\src\assets\tables.png)
+![Tables Preview](https://github.com/Aakarshit07/my-wine-stats/blob/main/src/assets/tables.png)
