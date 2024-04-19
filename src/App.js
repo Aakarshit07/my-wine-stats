@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import FlavanoidsTable from "./components/FlavanoidStats.jsx";
+import GammaTable from "./components/GammaStats.jsx";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1 className="title">All Wine Measures</h1>
+      <div className="tables">
+        <h1>Flavanoids Measures:</h1>
+        <FlavanoidsTable  />
+        <h1>Gamma Measures:</h1>
+        <GammaTable />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
